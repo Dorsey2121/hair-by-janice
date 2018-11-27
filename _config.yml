@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /hair-by-janice
+exclude: ['README.md']
