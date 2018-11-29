@@ -1,6 +1,7 @@
 :root {
   --color-primary: #fff;
   --color-primary-light: #333232;
+  --color-primary-medium: #2b2b2b;
   --color-primary-dark: #000;
   --color-secondary: #f2f2f2;
   --color-secondary-dark: #bababa;
@@ -15,6 +16,21 @@
   --shadow-primary: -1px 3px 8px rgba(0, 0, 0, .15);
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
+
+.copy-right {
+  background-color: var(--color-primary-medium);
+}
+
+.footer-nav a {
+  padding-bottom: .1em;
+  border-bottom: solid .1em;
+}
+
+.footer-nav a:hover {
+  text-decoration: none;
+  opacity: .8;
+}
+
 
 #filter {
   border: 3px solid;
@@ -931,6 +947,9 @@ ul.leaders li:before {
 
 
 
+
+
+
   .banner-content-sub {
     top: 60%;
     left: 0;
@@ -1050,29 +1069,7 @@ ul.leaders li:before {
     padding-left: 1.125rem;
   }
 
-  .banner-landing .wrapper,
-  .jersey-cta .wrapper {
-    justify-content: flex-end;
-  }
 
-  .banner-landing-content,
-  .jersey-cta-content {
-    width: 50%;
-    color: #fff;
-    text-align: left;
-  }
-
-  .banner-landing {
-    background:
-      linear-gradient(to right, rgba(85, 85, 85, 0), rgba(85, 85, 85, .9)) top right / 66% 100% no-repeat,
-      url("../images/quidcan/suraj-2.jpg") center top / cover no-repeat;
-    }
-
-  .jersey-cta {
-    background:
-      linear-gradient(to right, rgba(85, 85, 85, 0), rgba(85, 85, 85, .9)) top right / 66% 100% no-repeat,
-      url("../images/quidcan/jersey-cta.jpg") center / cover no-repeat;
-    }
 
 
   .unit-bg-form + .unit {
