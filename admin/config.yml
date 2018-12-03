@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: Dorsey2121/hair-by-janice
+  branch: gh-pages
 
 media_folder: "images/uploads"
 
@@ -15,7 +16,7 @@ collections:
         file: "_data/home.yml"
         fields:
           - label: "Banner"
-            name: "banner"
+            name: "banner-1"
             widget: "object"
             fields:
               - label: "Title"
@@ -113,3 +114,17 @@ collections:
               - label: "Text"
                 name: "text"
                 widget: "string"
+
+
+  - label: "Blog Posts"
+    name: "blog"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Article Text"
+        name: "body"
+        widget: "markdown"

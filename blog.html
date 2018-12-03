@@ -11,25 +11,29 @@ layout: default
 
 <main class="wrapper">
 
+  {% for post in site.posts %}
+
   <div class="media push-2 gutter">
     <div class="media-img">
       <i class="icon i-256 push">
-        <img class="" src="{{site.baseurl}}/images/gallery/image-1.jpg" alt="">
+        <img class="" src="{{post.image}}" alt="">
       </i>
     </div>
     <div class="media-body">
-      <h2 class="giga media-title push-1-4">Winter Care Tips</h2>
-      <p class="bold milli push-1-4">November 3rd, 2018</p>
-      <p class="push-1-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo [...]</p>
+      <h2 class="giga media-title push-1-4">{{post.title}}</h2>
+      <p class="bold milli push-1-4">{{post.date | date:"%b %e, %Y"}}</p>
+      <p class="push-1-2">{{post.preview-text | truncate: 200}}</p>
       <div class="">
-        <a class="bold btn btn-ghost-2" href="#">Read Full Article</a>
+        <a class="bold btn btn-ghost-2" href="{{post.url}}">Read Full Article</a>
       </div>
     </div>
   </div>
 
   <hr>
 
-  <div class="media push-2 pad-t gutter">
+  {% endfor %}
+
+  <!-- <div class="media push-2 pad-t gutter">
     <div class="media-img">
       <i class="icon i-256 push">
         <img class="" src="{{site.baseurl}}/images/gallery/image-2.jpg" alt="">
@@ -62,7 +66,7 @@ layout: default
       </div>
     </div>
   </div>
-
+ -->
 
 
 
