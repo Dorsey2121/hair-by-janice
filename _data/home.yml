@@ -2,19 +2,19 @@ banner-1:
   title: "The Beauty of Individuality"
   text: "Book an Appointment Today!"
   button: "Book Appointment"
-  image:
+  image: /images/uploads/home-banner-2.jpg
 
 banner-2:
   title: "December Special"
   text: "From every client's service , Hair By Janice will donate 1$ to The Ottawa Food Bank. Additional donations are welcome."
   button: "Book Appointment"
-  # image:
+  image:  /images/uploads/home-banner-3.jpg
 
 banner-3:
   title: "You can Win!"
   text: "Drop in and enter to win an exclusive wellness basket from Hair By Janice for the holidays!"
   button: "Book Appointment"
-  # image:
+  image:  /images/uploads/home-banner.jpg
 
 about:
   title: "About Janice"
