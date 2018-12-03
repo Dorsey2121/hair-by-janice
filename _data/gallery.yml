@@ -1,3 +1,4 @@
 gallery:
-  - image: /images/uploads/image-2.jpg
-    alttext: Girl with red hair
+  - alttext: Girl with red hair
+    image: /images/uploads/image-2.jpg
+  - image: /images/uploads/home-banner.jpg
