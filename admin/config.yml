@@ -122,8 +122,14 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - label: "Image"
+        name: "image"
+        widget: "image"
       - label: "Title"
         name: "title"
+        widget: "string"
+      - label: "Preview Text"
+        name: "preview-text"
         widget: "string"
       - label: "Article Text"
         name: "body"
@@ -132,6 +138,21 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "blog-posts"
-      - label: "Image"
-        name: "image"
-        widget: "image"
+
+  - label: "Gallery"
+    name: "gallery"
+    files:
+      - label: "Gallery"
+        name: "gallery"
+        file: _data/gallery.yml
+        fields:
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Photo Descriptiom"
+                name: "alttext"
+                widget: "string"
