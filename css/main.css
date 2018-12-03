@@ -31,6 +31,10 @@
   opacity: .8;
 }
 
+#logo {
+  height: 96px;
+  width: 96px;
+}
 
 #filter {
   border: 3px solid;
@@ -939,10 +943,20 @@ ul.leaders li:before {
     max-width: none;
   }
 
+  #logo {
+    height: 128px;
+    width: 128px;
+  }
+
 }
 
 
 @media only screen and (min-width: 60em) {
+
+  #logo {
+    height: 192px;
+    width: 192px;
+  }
 
 
 
@@ -1069,11 +1083,5 @@ ul.leaders li:before {
     padding-left: 1.125rem;
   }
 
-
-
-
-  .unit-bg-form + .unit {
-    padding: 3rem;
-  }
 
 }
