@@ -1,42 +1,28 @@
 banner-1:
-  button: Book Appointment
+  title: "The Beauty of Individuality"
+  text: "Book an Appointment Today!"
+  button: "Book Appointment"
   image: /images/uploads/home-banner-2.jpg
-  text: Book an Appointment Today!
-  title: The Beauty of Individuality
+
 banner-2:
-  button: Book Appointment
-  image: /images/uploads/home-banner-3.jpg
-  text: >-
-    From every client's service , Hair By Janice will donate 1$ to The Ottawa
-    Food Bank. Additional donations are welcome.
-  title: December Special
+  title: "December Special"
+  text: "From every client's service , Hair By Janice will donate 1$ to The Ottawa Food Bank. Additional donations are welcome."
+  button: "Book Appointment"
+  image:  /images/uploads/home-banner-3.jpg
+
 banner-3:
-  button: Book Appointment
-  image: /images/uploads/home-banner.jpg
-  text: >-
-    Drop in and enter to win an exclusive wellness basket from Hair By Janice
-    for the holidays!
-  title: You can Win!
+  title: "You can Win!"
+  text: "Drop in and enter to win an exclusive wellness basket from Hair By Janice for the holidays!"
+  button: "Book Appointment"
+  image:  /images/uploads/home-banner.jpg
+
 about:
-  text: >-
-    With over 20 years of experience in the beauty industry, Janice prides
-    herself on an expansive skill set. Hair and make up is just the beginning. 
-    From correction work, to hair extensions and wigs. She also does fantasy
-    updos.  Nothing is out of her realm. Janice has worked on films, local plays
-    , music videos, photo shoots and TV.   She also freelances her work out of
-    salon doing onsite work such as weddings or other functions.
-  title: About Janice
+  title: "About Janice"
+  text: "With over 20 years of experience in the beauty industry, Janice prides herself on an expansive skill set. Hair and make up is just the beginning.  From correction work, to hair extensions and wigs. She also does fantasy updos.  Nothing is out of her realm. Janice has worked on films, local plays , music videos, photo shoots and TV.   She also freelances her work out of salon doing onsite work such as weddings or other functions."
+
 testimonials:
-  image: ''
-  text-1: >-
-    Visiting Janice over the years has become a kind of therapy. I always leave
-    her chair looking, and feeling great.
-  text-2: >-
-    I've been a client of Janice's for over a decade and would never dream of
-    going anywhere else!
-  text-3: >-
-    Always open to a challenge and always learning, Janice has excelled at any
-    style I have thrown at her.
-  text-4: >-
-    Been going to Janice for over 10 years now! Fun, professional, creative and
-    kind. I always get asked who does my hair!
+  text-1: "Visiting Janice over the years has become a kind of therapy. I always leave her chair looking, and feeling great."
+  text-2: "I've been a client of Janice's for over a decade and would never dream of going anywhere else!"
+  text-3: "Always open to a challenge and always learning, Janice has excelled at any style I have thrown at her."
+  text-4: "Been going to Janice for over 10 years now! Fun, professional, creative and kind. I always get asked who does my hair!"
+  image:  /images/uploads/testimonials.jpg
