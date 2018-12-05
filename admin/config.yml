@@ -151,43 +151,43 @@ collections:
                 widget: "string"
 
 
-  - label: "Blog"
-    name: "blog"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - label: "Image"
-        name: "image"
-        widget: "image"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Preview Text"
-        name: "preview-text"
-        widget: "string"
-      - label: "Article Text"
-        name: "body"
-        widget: "markdown"
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "blog-posts"
+      - label: "Blog"
+        name: "blog"
+        folder: "_posts"
+        create: true
+        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Preview Text"
+            name: "preview-text"
+            widget: "string"
+          - label: "Article Text"
+            name: "body"
+            widget: "markdown"
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "blog-posts"
 
-  - label: "Gallery"
-    name: "gallery"
-    files:
       - label: "Gallery"
         name: "gallery"
-        file: _data/gallery.yml
-        fields:
+        files:
           - label: "Gallery"
             name: "gallery"
-            widget: "list"
+            file: _data/gallery.yml
             fields:
-              - label: "Photo Description"
-                name: "alttext"
-                widget: "string"
-              - label: "Image"
-                name: "image"
-                widget: "image"
+              - label: "Gallery"
+                name: "gallery"
+                widget: "list"
+                fields:
+                  - label: "Photo Description"
+                    name: "alttext"
+                    widget: "string"
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
