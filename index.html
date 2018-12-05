@@ -77,9 +77,9 @@ layout: default
 
           {% for services in site.data.sevices.services %}
             <li class="text-left">
-              <span class="bold">{{site.baseurl}}{{services.service}}</span>
-              <span class="bold">{{site.baseurl}}{{services.price}}</span>
-              <p class="service-p milli"><em>{{site.baseurl}}{{services.description}}</em></p>
+              <span class="bold">{{site.data.services.services.service}}</span>
+              <span class="bold">{{site.data.services.services.price}}</span>
+              <p class="service-p milli"><em>{{site.data.services.services.description}}</em></p>
             </li>
           {% endfor %}
 
