@@ -1,24 +1,3 @@
 gallery:
   - alttext: Girl with red hair
     image: /images/uploads/image-2.jpg
-  - image: /images/uploads/image-4.jpg
-  - alttext: bun
-    image: /images/uploads/image-5.jpg
-  - alttext: curly hair
-    image: /images/uploads/image-12.jpg
-  - alttext: blonde and short
-    image: /images/uploads/image-11.jpg
-  - alttext: multi-coloured hair
-    image: /images/uploads/image-10.jpg
-  - alttext: green
-    image: /images/uploads/image-9.jpg
-  - alttext: pink and short
-    image: /images/uploads/image-8.jpg
-  - alttext: blonde and long
-    image: /images/uploads/image-7.jpg
-  - alttext: bun
-    image: /images/uploads/image-6.jpg
-  - alttext: long blonde
-    image: /images/uploads/image-3.jpg
-  - alttext: curly
-    image: /images/uploads/image-4.jpg
