@@ -130,25 +130,6 @@ collections:
                 widget: "image"
 
 
-      - label: "Services"
-        name: "services"
-        file: _data/services.yml
-        fields:
-          - label: "Services"
-            name: "services"
-            widget: "list"
-            fields:
-              - label: "Service"
-                name: "service"
-                widget: "string"
-              - label: "Price"
-                name: "price"
-                widget: "string"
-              - label: "Description"
-                name: "description"
-                widget: "string"
-
-
       - label: "Book Page"
         name: "book-appointment"
         file: "_data/book-appointment.yml"
