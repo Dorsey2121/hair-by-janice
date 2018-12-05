@@ -1,0 +1,4 @@
+services:
+  - service: "Haircuts"
+    price: "$25-$60"
+    description: "Short and easy to long and styled"

@@ -207,15 +207,17 @@ hr {
 
  .slide { display: none;}
 
- #testimonials {
+.testimonial-banner {
    color: #fff;
    height: 40vh;
    position: relative;
    background:
-   linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-     url("../images/testimonials.jpg") top / cover no-repeat fixed;
-     z-index: 0;
+     top left / cover no-repeat,
+     top / cover no-repeat fixed;
+   z-index: 0;
  }
+
+
 
 
 

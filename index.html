@@ -75,11 +75,11 @@ layout: default
       <div class="wrapper">
         <ul class="leaders list-group">
 
-          {% for services in site.data.index.sevices %}
+          {% for services in site.data.sevices %}
             <li class="text-left">
-              <span class="bold">Haircuts</span>
-              <span class="bold">$25-$60</span>
-              <p class="service-p milli"><em>Short and easy to long and styled</em></p>
+              <span class="bold">{{site.baseurl}}{{services.service}}</span>
+              <span class="bold">{{site.baseurl}}{{services.price}}</span>
+              <p class="service-p milli"><em>{{site.baseurl}}{{services.description}}</em></p>
             </li>
           {% endfor %}
 
@@ -132,7 +132,7 @@ layout: default
 
 
 
-  <section id="testimonials" class="">
+  <section class="testimonial-banner" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.testimonials.image}})">
     <div class="container wrapper">
       <div class="slideshow grid grid-middle">
         <div class="slide unit giga">{{site.data.home.testimonials.text-1}}</div>

@@ -1,0 +1,8 @@
+hours:
+  monday: "Closed"
+  tuesday: "10am to 6pm"
+  wednesday: "10am to 6pm"
+  thursday: "10am to 7pm"
+  friday: "10am to 7pm"
+  saturday: "Appointment Only"
+  sunday: "Closed"
