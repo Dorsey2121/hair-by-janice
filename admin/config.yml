@@ -125,6 +125,9 @@ collections:
               - label: "Text-4"
                 name: "text-4"
                 widget: "string"
+              - label: "Image"
+                name: "image"
+                widget: "image"
 
 
       - label: "Book Page"
@@ -170,25 +173,6 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "blog-posts"
-
-  - label: "Gallery"
-    name: "gallery"
-    files:
-      - label: "Gallery"
-        name: "gallery"
-        file: _data/gallery.yml
-        fields:
-          - label: "Gallery"
-            name: "gallery"
-            widget: "list"
-            fields:
-              - label: "Photo Descriptiom"
-                name: "alttext"
-                widget: "string"
-              - label: "Image"
-                name: "image"
-                widget: "image"
-
 
   - label: "Gallery"
     name: "gallery"
