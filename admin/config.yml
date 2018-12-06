@@ -186,7 +186,7 @@ collections:
         file: _data/services.yml
         fields:
           - label: "Services"
-            name: "service"
+            name: "services"
             widget: "list"
             fields:
               - label: "Service"
