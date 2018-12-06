@@ -1,4 +1,5 @@
+banner-gallery:
+  image: /images/uploads/home-banner-2.jpg
 gallery:
   - alttext: purple
-    banner-gallery: /images/uploads/home-banner-2.jpg
     image: /images/uploads/image-1.jpg
