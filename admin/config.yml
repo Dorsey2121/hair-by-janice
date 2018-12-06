@@ -6,7 +6,6 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-
   - label: "Footer Content"
     name: "footer"
     files:
@@ -39,6 +38,38 @@ collections:
               - label: "Sunday"
                 name: "sunday"
                 widget: "string"
+
+          - label: "Contact"
+            name: "contact"
+            widget: "fields"
+            fields:
+              - label: "Street"
+                name: "street"
+                widget: "string"
+              - label: "Suite"
+                name: "suite"
+                widget: "string"
+              - label: "City"
+                name: "city"
+                widget: "string"
+              - label: "Tel"
+                name: "tel"
+                widget: "string"
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+          - label: "Social Media"
+            name: "social-media"
+            widget: "objects"
+            fields:
+              - label: "Facebook"
+                name: "facebook"
+                widget: "string"
+              - label: "Instagram"
+                name: "instagram"
+                widget: "string"
+
 
   - label: "Pages"
     name: "pages"

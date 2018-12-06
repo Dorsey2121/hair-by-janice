@@ -6,3 +6,14 @@ hours:
   friday: "10am to 7pm"
   saturday: "Appointment Only"
   sunday: "Closed"
+
+contact:
+  street: "225 Metcalfe St"
+  suite: "6th Floor, Suite 209"
+  city: "Ottawa Ontario, K2P 1P9"
+  tel: "Tel: 613-301-4108"
+  email: "Email: www.hairbyjanice.com"
+
+social-media:
+  facebook: "https://www.algonquincollege.com/"
+  instagram: "https://www.algonquincollege.com/"

@@ -15,7 +15,6 @@ layout: default
           </div>
         </div>
       </div>
-
       <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.banner-2.image}})">
         <div class="banner-content absolute pad-t-2 pad-b-2">
           <div class="wrapper gutter">
@@ -41,19 +40,15 @@ layout: default
     </div>
   </div>
 
+  <div>
     <div class="dots text-center">
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
   </div>
-
-
-
 
   <main class="">
 
@@ -63,7 +58,6 @@ layout: default
         <p>{{site.data.home.about.text}}</p>
       </div>
     </section>
-
     <section id="services" class="gutter-2 section-grey text-center pad-t-2 pad-b-2">
       <div class="gutter">
         <h2 class="">Services</h2>
@@ -75,13 +69,13 @@ layout: default
       <div class="wrapper">
         <ul class="leaders list-group">
 
-          {% for services in site.data.sevices.services %}
-            <li class="text-left">
-              <span class="bold">{{site.data.services.services.service}}</span>
-              <span class="bold">{{site.data.services.services.price}}</span>
-              <p class="service-p milli"><em>{{site.data.services.services.description}}</em></p>
-            </li>
-          {% endfor %}
+        {% for services in site.data.sevices.services %}
+          <li class="text-left">
+            <span class="bold">{{site.baseurl}}{{services.service}}</span>
+            <span class="bold">{{site.baseurl}}{{services.price}}</span>
+            <p class="service-p milli"><em>{{site.baseurl}}{{services.description}}</em></p>
+          </li>
+        {% endfor %}
 
             <!-- <li class="text-left">
               <span class="bold">Hair Colour</span>
@@ -114,34 +108,18 @@ layout: default
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <section class="testimonial-banner" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.testimonials.image}})">
-    <div class="container wrapper">
-      <div class="slideshow grid grid-middle">
-        <div class="slide unit giga">{{site.data.home.testimonials.text-1}}</div>
-        <div class="slide unit giga">{{site.data.home.testimonials.text-2}}</div>
-        <div class="slide unit giga">{{site.data.home.testimonials.text-3}}</div>
-        <div class="slide unit giga">{{site.data.home.testimonials.text-4}}</div>
+    <section class="testimonial-banner" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.testimonials.image}})">
+      <div class="container wrapper">
+        <div class="slideshow grid grid-middle">
+          <div class="slide unit giga">{{site.data.home.testimonials.text-1}}</div>
+          <div class="slide unit giga">{{site.data.home.testimonials.text-2}}</div>
+          <div class="slide unit giga">{{site.data.home.testimonials.text-3}}</div>
+          <div class="slide unit giga">{{site.data.home.testimonials.text-4}}</div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+  </main>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
