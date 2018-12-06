@@ -1,3 +1,6 @@
+banner-gallery:
+  image: /images/uploads/home-banner-2.jpg
+
 gallery:
-  - alttext: purple
-    image: /images/uploads/image-1.jpg
+  - alttext: Girl with red hair
+    image: /images/uploads/image-2.jpg

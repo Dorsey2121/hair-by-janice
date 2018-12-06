@@ -207,12 +207,16 @@ collections:
             name: "gallery"
             widget: "list"
             fields:
+              - label: "Banner"
+                name: "banner-gallery"
+                widget: "image"
               - label: "Photo Description"
                 name: "alttext"
                 widget: "string"
               - label: "Image"
                 name: "image"
                 widget: "image"
+
 
 
 
