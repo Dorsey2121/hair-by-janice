@@ -203,13 +203,18 @@ collections:
         name: "gallery"
         file: _data/gallery.yml
         fields:
+          - label: "Banner"
+            name: "banner-gallery"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
           - label: "Gallery"
             name: "gallery"
             widget: "list"
             fields:
-              - label: "Banner"
-                name: "banner-gallery"
-                widget: "image"
               - label: "Photo Description"
                 name: "alttext"
                 widget: "string"
@@ -217,6 +222,8 @@ collections:
                 name: "image"
                 widget: "image"
 
+
+  
 
 
 
