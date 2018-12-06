@@ -1,4 +1,16 @@
 services:
-  - service: "Haircuts"
-    price: "$25-$60"
-    description: "Short and easy to long and styled"
+  - description: Short and easy to long and styled
+    price: $25-$60
+    service: Haircuts
+  - description: Just roots to whole head
+    price: $40-S60
+    service: Hair Colour
+  - description: 'Ombre, balliage and cap or foil or freehand hilites'
+    price: $45-$120
+    service: Highlights Partial to Full
+  - description: 'Whether for a wedding , party , film shoot or otherwise.'
+    price: $50 an hour
+    service: Updos and Speciality Hair
+  - description: Pieces of flash to half heads to whole head
+    price: $10-$350
+    service: Extensions
