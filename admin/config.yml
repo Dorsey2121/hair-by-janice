@@ -41,7 +41,7 @@ collections:
 
           - label: "Contact"
             name: "contact"
-            widget: "fields"
+            widget: "object"
             fields:
               - label: "Street"
                 name: "street"
@@ -61,7 +61,7 @@ collections:
 
           - label: "Social Media"
             name: "social-media"
-            widget: "objects"
+            widget: "object"
             fields:
               - label: "Facebook"
                 name: "facebook"
@@ -222,8 +222,21 @@ collections:
                 name: "image"
                 widget: "image"
 
+      - label: "Blog Banner"
+        name: "blog-banner"
+        file: _data/blog-banner.yml
+        fields:
+          - label: "Banner"
+            name: "banner-blog"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
 
-  
+
+
+
 
 
 

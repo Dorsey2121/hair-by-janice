@@ -8,13 +8,17 @@
   --color-secondary-light: #f9f9f9;
   --color-accent: #9ad1d4;
   --color-accent-2: #7a5c76;
-  --color-accent-2-transparency: rgba(124, 41, 124, .3);
+  --color-accent-2-transparency: #ccb8ca;
   --color-accent-secondary: rgba(154, 208, 211, .1);
   --color-accent-secondary-footer: rgba(154, 208, 211, .5);
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Playfair Display", serif;
   --shadow-primary: -1px 3px 8px rgba(0, 0, 0, .15);
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
+}
+
+.page-colour {
+  background-color:  var();
 }
 
 .copy-right {
