@@ -8,7 +8,7 @@
   --color-secondary-light: #f9f9f9;
   --color-accent: #9ad1d4;
   --color-accent-2: #7a5c76;
-  --color-accent-2-transparency: #ccb8ca;
+  --color-accent-2-transparency: #ededed;
   --color-accent-secondary: rgba(154, 208, 211, .1);
   --color-accent-secondary-footer: rgba(154, 208, 211, .5);
   --font-primary: "Raleway", sans-serif;
@@ -18,7 +18,7 @@
 }
 
 .page-colour {
-  background-color:  var();
+  background-color:  var(--color-accent-2-transparency);
 }
 
 .copy-right {
@@ -347,7 +347,7 @@ fieldset {
 }
 
 .section-grey {
-  background-color: var(--color-accent-secondary);
+  background-color: var(--color-accent-2-transparency);
 
 }
 
