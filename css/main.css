@@ -17,6 +17,13 @@
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
 
+.wrapper-banner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45em;
+  width: 100%;
+}
+
 .page-colour {
   background-color:  var(--color-accent-2-transparency);
 }
