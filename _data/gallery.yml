@@ -3,3 +3,9 @@ banner-gallery:
 gallery:
   - alttext: purple
     image: /images/uploads/image-1.jpg
+  - alttext: Hair bun
+    image: /images/uploads/image-5.jpg
+  - alttext: green hair
+    image: /images/uploads/image-9.jpg
+  - alttext: rainbow
+    image: /images/uploads/image-10.jpg
