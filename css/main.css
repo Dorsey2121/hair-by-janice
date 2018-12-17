@@ -17,6 +17,11 @@
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
 
+.size {
+  width: 256px;
+  height: 256px;
+}
+
 .wrapper-banner {
   margin-left: auto;
   margin-right: auto;

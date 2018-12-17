@@ -78,6 +78,11 @@ img {
   border: 0;
 }
 
+.pic-size {
+  display: block;
+  width: 100%;
+}
+
 .img-flex,
 .img-flex img {
   display: block;
@@ -209,10 +214,6 @@ svg.img-flex {
   width: 100%;
 }
 
-.media {
-  overflow: hidden;
-}
-
 .media-img, .media__img {
   float: left;
 }
@@ -230,6 +231,7 @@ svg.img-flex {
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
 
+
 .icon {
   display: inline-block;
   position: relative;
@@ -237,6 +239,27 @@ svg.img-flex {
   background-size: contain;
   vertical-align: middle;
 }
+
+.icony {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.iconyy {
+  min-height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 
 .i-16, .i--16 {
   height: 16px;
@@ -292,6 +315,8 @@ svg.img-flex {
   height: 256px;
   width: 256px;
 }
+
+
 
 .icon img,
 .icon svg {

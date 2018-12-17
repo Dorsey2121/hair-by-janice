@@ -8,15 +8,13 @@ layout: default
   </div>
 
   <article class="wrapper push-2">
-    <div class="grid pad-t-1-4 pad-b-1-4 parrot-list">
+    <div class="grid pad-t-1-4 pad-b-1-4">
 {% for gallery in site.data.gallery.gallery %}
-      <div class=" macaw-link unit [xs-1 s-1 m-1-2 l-1-4 xl-1-4] island-1-4">
-        <a class="hover-box block relative crop" href="#">
-          <div class="embed embed-1by1">
-            <img class="hover-box-img embed-item" src="{{gallery.image}}" alt="{{gallery.alttext}}">
-          </div>
-        </a>
+      <div class=" unit [xs-1 s-1 m-1-2 l-1-4 xl-1-4] island-1-4">
+        <div class="embed embed-1by1">
+          <img class="embed-item" src="{{gallery.image}}" alt="{{gallery.alttext}}">
+        </div>
       </div>
 {% endfor %}
     </div>
-</article>
+  </article>
