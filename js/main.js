@@ -1,3 +1,8 @@
+var services= $("#services");
+
+if(services.length){
+
+
 $(document).ready(function(){
   $(".smooth-scroll a").on('click', function(event) {
     if (this.hash !== "") {
@@ -11,6 +16,7 @@ $(document).ready(function(){
     }
   });
 });
+}
 
 $('.nav-label').on('click', function (e) {
   e.preventDefault();
@@ -46,11 +52,6 @@ $(".photo-site").focusout(function () {
 });
 
 
-
-
-/* Slider (work in progress)
- * 03/09/2015 by Andrew Errico
- */
 $(function() {
 
     // slider type
