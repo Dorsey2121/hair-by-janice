@@ -1,38 +1,84 @@
-  ---
-  layout: default
-  ---
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Hair By Janice</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/modules.css" rel="stylesheet">
+  <link href="/css/grid.css" rel="stylesheet">
+  <link href="/css/type.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900" rel="stylesheet">
+  <link href="/favicon.ico" rel="shortcut icon">
+</head>
+<body>
 
-  <div class="slideshow-container">
+  <ul class="skip-links">
+    <li class="smooth-scroll"><a href="#work">Jump to main content</a></li>
+    <li><a class="skip-scroll" href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
+    <div class=" gutter-1-2 pad-t-1-2 pad-b-1-2">
+      <div class="gutter grid grid-middle">
+        <div class="unit [ xs-3-4 l-1-3 ]">
+          <a class="logo" href="/">
+            <img id="logo" src="/images/logo.svg" alt="">
+          </a>
+        </div>
+        <div class="unit [ xs-1-4 m-1-4 l-0 ] text-right">
+          <a href="#footer-nav" id="nav-tog" class="nav-label" tabindex="0">
+            <span class="tog top"></span>
+            <span class="tog middle"></span>
+            <span class="tog bottom"></span>
+          </a>
+        </div>
+        <nav class="unit [ l-2-3 ] nav-closed" role="navigation">
+          <ul class="list-group push-0 smooth-scroll">
+            <li><a id="nav" class="island-1-2 block bold mega" href="/#services">Services</a></li>
+            <li><a class="island-1-2 block bold mega" href="/gallery">Gallery</a></li>
+            <li><a id="nav" class="island-1-2 block bold mega" href="/blog">Blog</a></li>
+            <li><a class="island-1-2 block bold mega" href="/book-online">Book</a></li>
+            <li><a class="island-1-2 block bold mega" href="mailto:janicefitz@hotmail.com">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    <div class="slideshow-container">
     <div class="">
-      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.banner-1.image}})">
+      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/uploads/home-banner-2.jpg)">
         <div class="banner-content absolute pad-t-2 pad-b-2">
           <div class="wrapper-banner gutter">
-            <h1 class="white tena push-0">{{site.data.home.banner-1.title}}</h1>
-            <p class="white giga bold push-0">{{site.data.home.banner-1.text}}</p>
+            <h1 class="white tena push-0">The Beauty of Individuality</h1>
+            <p class="white giga bold push-0">Book an Appointment Today!</p>
             <div class="text-center pad-t push-2">
-              <a class="bold btn btn-ghost-3" href="/book-online">{{site.data.home.banner-1.button}}</a>
+              <a class="bold btn btn-ghost-3" href="/book-online">Book Appointment</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.banner-2.image}})">
+      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/uploads/home-banner-3.jpg)">
         <div class="banner-content absolute pad-t-2 pad-b-2">
           <div class="wrapper-banner gutter">
-            <h1 class="tena white push-0">{{site.data.home.banner-2.title}}</h1>
-            <p class="white giga bold push-0">{{site.data.home.banner-2.text}}</p>
+            <h1 class="tena white push-0">December Special</h1>
+            <p class="white giga bold push-0">From every client's service , Hair By Janice will donate 1$ to The Ottawa Food Bank. Additional donations are welcome.</p>
             <div class="text-center pad-t push-2">
-              <a class="bold btn btn-ghost-3" href="/book-online">{{site.data.home.banner-2.button}}</a>
+              <a class="bold btn btn-ghost-3" href="/book-online">Book Appointment</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.banner-3.image}})">
+      <div class="mySlides intro-banner relative push-2" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/uploads/home-banner.jpg)">
         <div class="banner-content absolute pad-t-2 pad-b-2">
           <div class="wrapper-banner gutter">
-            <h1 class="tena white push-0">{{site.data.home.banner-3.title}}</h1>
-            <p class="white giga bold push-0">{{site.data.home.banner-3.text}}</p>
+            <h1 class="tena white push-0">You can Win!</h1>
+            <p class="white giga bold push-0">Drop in and enter to win an exclusive wellness basket from Hair By Janice for the holidays!</p>
             <div class="text-center pad-t push-2">
-              <a class="bold btn btn-ghost-3" href="/book-online">{{site.data.home.banner-3.button}}</a>
+              <a class="bold btn btn-ghost-3" href="/book-online">Book Appointment</a>
             </div>
           </div>
         </div>
@@ -54,8 +100,8 @@
 
     <section id="about-me" class="gutter-2 text-center pad-t pad-b-2 ">
       <div class="wrapper gutter">
-        <h2>{{site.data.home.about.title}}</h2>
-        <p>{{site.data.home.about.text}}</p>
+        <h2>About Janice</h2>
+        <p>With over 20 years of experience in the beauty industry, Janice prides herself on an expansive skill set. Hair and make up is just the beginning.  From correction work, to hair extensions and wigs. She also does fantasy updos.  Nothing is out of her realm. Janice has worked on films, local plays , music videos, photo shoots and TV.   She also freelances her work out of salon doing onsite work such as weddings or other functions.</p>
       </div>
     </section>
     <section id="services" class="gutter-2 section-grey text-center pad-t-2 pad-b-2">
@@ -69,13 +115,37 @@
       <div class="wrapper">
         <ul class="leaders list-group">
 
-        {% for services in site.data.services.services %}
+        
           <li class="text-left">
-            <span class="bold page-colour">{{services.service}}</span>
-            <span class="bold page-colour">{{services.price}}</span>
-            <p class="service-p milli"><em>{{services.description}}</em></p>
+            <span class="bold page-colour">Haircuts</span>
+            <span class="bold page-colour">$25-$60</span>
+            <p class="service-p milli"><em>Short and easy to long and styled</em></p>
           </li>
-        {% endfor %}
+        
+          <li class="text-left">
+            <span class="bold page-colour">Hair Colour</span>
+            <span class="bold page-colour">$40-$60</span>
+            <p class="service-p milli"><em>Just roots to whole head</em></p>
+          </li>
+        
+          <li class="text-left">
+            <span class="bold page-colour">Highlights Partial to Full</span>
+            <span class="bold page-colour">$45-$120</span>
+            <p class="service-p milli"><em>Ombre, balliage and cap or foil or freehand hilites</em></p>
+          </li>
+        
+          <li class="text-left">
+            <span class="bold page-colour">Updos and Speciality Hair</span>
+            <span class="bold page-colour">$50 an hour</span>
+            <p class="service-p milli"><em>Whether for a wedding , party , film shoot or otherwise.</em></p>
+          </li>
+        
+          <li class="text-left">
+            <span class="bold page-colour">Extensions</span>
+            <span class="bold page-colour">$10-$350</span>
+            <p class="service-p milli"><em>Pieces of flash to half heads to whole head</em></p>
+          </li>
+        
 
       </ul>
         <div class="text-center pad-t push-2">
@@ -84,13 +154,13 @@
       </div>
     </section>
 
-    <section class="testimonial-banner" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url({{site.data.home.testimonials.image}})">
+    <section class="testimonial-banner" style="background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/uploads/testimonials.jpg)">
       <div class="container wrapper-banner">
         <div class="slideshow grid grid-middle">
-          <div class="slide unit giga">{{site.data.home.testimonials.text-1}}</div>
-          <div class="slide unit giga">{{site.data.home.testimonials.text-2}}</div>
-          <div class="slide unit giga">{{site.data.home.testimonials.text-3}}</div>
-          <div class="slide unit giga">{{site.data.home.testimonials.text-4}}</div>
+          <div class="slide unit giga">Visiting Janice over the years has become a kind of therapy. I always leave her chair looking, and feeling great.</div>
+          <div class="slide unit giga">I've been a client of Janice's for over a decade and would never dream of going anywhere else!</div>
+          <div class="slide unit giga">Always open to a challenge and always learning, Janice has excelled at any style I have thrown at her.</div>
+          <div class="slide unit giga">Been going to Janice for over 10 years now! Fun, professional, creative and kind. I always get asked who does my hair!</div>
         </div>
       </div>
     </section>
@@ -98,3 +168,62 @@
 
 
   </main>
+
+
+  <footer id="footer" class=" pad-t">
+    <div class="wrapper grid">
+      <div class="unit [ xs-1 m-1-3 ] push gutter">
+        <h3 class="mega push-1-2">Hair By Janice</h3>
+        <ul class="list-group footer-nav">
+          <li class="push-1-4"><a class="" href="/#services">Services</a></li>
+          <li class="push-1-4"><a class="" href="/gallery">Gallery</a></li>
+          <li class="push-1-4"><a class="" href="/blog">Blog</a></li>
+          <li class="push-1-4"><a class="" href="/book-online">Book</a></li>
+          <li class="push-1-4"><a class="" href="mailto:janicefitz@hotmail.com">Contact</a></li>
+        </ul>
+      </div>
+      <div class="unit [ xs-1 m-1-3 ] push gutter">
+        <h3 class="mega push-1-2">Hours of Operation</h3>
+        <div class="">
+          <p class="milli white push-0"><strong>Monday</strong> – Closed</p>
+          <p class="milli white push-0"><strong>Tuesday</strong> – 10am to 6pm</p>
+          <p class="milli white push-0"><strong>Wednesday</strong> – 10am to 6pm</p>
+          <p class="milli white push-0"><strong>Thursday</strong> – 10am to 7pm</p>
+          <p class="milli white push-0"><strong>Friday</strong> – 10am to 7pm</p>
+          <p class="milli white push-0"><strong>Saturday</strong> – Appointment Only</p>
+          <p class="milli white push-0"><strong>Sunday</strong> – Closed</p>
+        </div>
+      </div>
+      <div class="unit [ xs-1 m-1-3 ] push gutter">
+        <h3 class="mega push-1-2">Contact</h3>
+        <div class="push-1-4">
+          <p class="milli white push-0">225 Metcalfe St</p>
+          <p class="milli white push-0">6th Floor, Suite 209</p>
+          <p class="milli white push-0">Ottawa Ontario, K2P 1P9</p>
+          <p class="milli white push-0">Tel: 613-301-4108</p>
+          <p class="milli white push-0">Email: www.hairbyjanice.com</p>
+        </div>
+        <a class="social" href="https://www.facebook.com/OttawaHairbyJanice">
+          <i class="icon i-32 push-r-1-4">
+            <img src="/images/facebook.svg" alt="">
+          </i>
+        </a>
+        <a class="social" href="https://www.instagram.com/hairbyjaniceottawa/">
+          <i class="icon i-32">
+            <img src="/images/instagram.svg" alt="">
+          </i>
+        </a>
+      </div>
+    </div>
+    <div class="copy-right pad-t-1-2 pad-b-1-2 push-0">
+      <div class="gutter wrapper push-0">
+        <small class="inline-block milli">© Hair By Janice 2018</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
+
+</body>
+</html>

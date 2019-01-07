@@ -3,7 +3,7 @@ services:
     price: $25-$60
     service: Haircuts
   - description: Just roots to whole head
-    price: $40-S60
+    price: $40-$60
     service: Hair Colour
   - description: 'Ombre, balliage and cap or foil or freehand hilites'
     price: $45-$120
