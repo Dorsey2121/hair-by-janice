@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Dorsey2121/hair-by-janice
+  repo: Hair-by-Janice/hair-by-janice
   branch: gh-pages
 
 media_folder: "images/uploads"
