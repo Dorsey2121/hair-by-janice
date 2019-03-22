@@ -4,4 +4,4 @@ title: new hair trends
 preview-text: new hair trends
 layout: blog-posts
 ---
-sample text
+Article will be up shortly....
