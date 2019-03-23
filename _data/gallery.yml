@@ -2,10 +2,10 @@ banner-gallery:
   image: /images/uploads/home-banner-2.jpg
 gallery:
   - alttext: purple
-    image: /images/uploads/image-1.jpg
+    image: /images/uploads/image-8.jpg
   - alttext: Hair bun
-    image: /images/uploads/image-5.jpg
+    image: /images/uploads/image-6.jpg
   - alttext: green hair
     image: /images/uploads/image-9.jpg
   - alttext: rainbow
-    image: /images/uploads/image-10.jpg
+    image: /images/uploads/image-7.jpg
