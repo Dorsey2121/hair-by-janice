@@ -1,5 +1,5 @@
 ---
-image: /images/uploads/image-1.jpg
+image: /images/uploads/image2-4.jpg
 title: What Causes Breakage & Split Ends
 preview-text: >-
   In the midst of a dry and cold winter season, having a lack of moisture in
