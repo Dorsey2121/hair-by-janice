@@ -15,3 +15,5 @@ gallery:
     image: /images/uploads/image4-1.jpg
   - alttext: Hair style
     image: /images/uploads/image1-8.jpg
+  - alttext: Mohawk
+    image: /images/uploads/image6.jpg
