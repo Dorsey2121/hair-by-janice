@@ -1,7 +1,7 @@
 ---
 image: /images/uploads/image2.jpeg
-title: new hair trends
-preview-text: new hair trends
+title: New Hair Trends
+preview-text: New Hair Trends
 layout: blog-posts
 ---
 Volume , bobs and baby fringes are all the rage for spring! 
