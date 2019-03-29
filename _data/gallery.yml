@@ -1,5 +1,5 @@
 banner-gallery:
-  image: /images/uploads/image1-9.jpg
+  image: /images/uploads/images.jpeg
 gallery:
   - alttext: purple
     image: /images/uploads/image1.jpg
