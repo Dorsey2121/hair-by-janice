@@ -11,8 +11,6 @@ gallery:
     image: /images/uploads/sunlightstreaks.jpg
   - alttext: Rich Highlights
     image: /images/uploads/richstreaks.jpg
-  - alttext: Geometric cuts
-    image: /images/uploads/redgeometry.jpg
   - alttext: Hair style
     image: /images/uploads/frenchbraid.jpg
   - alttext: Mohawk
@@ -23,5 +21,3 @@ gallery:
     image: /images/uploads/fusiastreaks.jpg
   - alttext: Spider Cuts
     image: /images/uploads/bluespider.jpg
-  - alttext: Batman
-    image: /images/uploads/batman.jpg
