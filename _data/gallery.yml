@@ -1,19 +1,27 @@
 banner-gallery:
   image: /images/uploads/images.jpeg
 gallery:
-  - alttext: purple
-    image: /images/uploads/image1.jpg
-  - alttext: Hair bun
-    image: /images/uploads/image1-1.jpeg
-  - alttext: green hair
-    image: /images/uploads/image7.jpg
-  - alttext: Purples
-    image: /images/uploads/image2-2.jpg
-  - alttext: Leopard spots
-    image: /images/uploads/image2-8.jpg
+  - alttext: Lavender Hair
+    image: /images/uploads/purplepixie.jpg
+  - alttext: Pink Ponytail
+    image: /images/uploads/pinkponeytail.jpg
+  - alttext: Green Hair
+    image: /images/uploads/seaweedgreen.jpg
+  - alttext: Sunny Highlights
+    image: /images/uploads/sunlightstreaks.jpg
+  - alttext: Rich Highlights
+    image: /images/uploads/richstreaks.jpg
   - alttext: Geometric cuts
-    image: /images/uploads/image4-1.jpg
+    image: /images/uploads/redgeometry.jpg
   - alttext: Hair style
-    image: /images/uploads/image1-8.jpg
+    image: /images/uploads/frenchbraid.jpg
   - alttext: Mohawk
-    image: /images/uploads/image6.jpg
+    image: /images/uploads/fauxhawk.jpg
+  - alttext: Orange Flame
+    image: /images/uploads/orangeflames.jpg
+  - alttext: 'Fusia '
+    image: /images/uploads/fusiastreaks.jpg
+  - alttext: Spider Cuts
+    image: /images/uploads/bluespider.jpg
+  - alttext: Batman
+    image: /images/uploads/batman.jpg
